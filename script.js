@@ -11,9 +11,10 @@ class Animal {
 
     // Method to log the sound the animal makes
     makeSound() {
-        console.log(`The ${this.species} makes a sound.`);
+        console.log(`The ${this.species} makes a sound`);
     }
 }
+
 
 // Define the Cat class that extends Animal
 class Cat extends Animal {
@@ -26,6 +27,16 @@ class Cat extends Animal {
         console.log("purr");
     }
 }
+
+class Dog extends Animal {
+    
+
+    // Method to log "woof"
+    bark() {
+        console.log("woof");
+    }
+}
+
 
 
 const myCat = new Cat("Siamese");
