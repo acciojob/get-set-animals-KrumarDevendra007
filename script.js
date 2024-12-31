@@ -18,9 +18,7 @@ class Animal {
 
 // Define the Cat class that extends Animal
 class Cat extends Animal {
-    constructor() {
-        super("Cat"); // Initialize the species as "Cat"
-    }
+   
 
     // Method to log "purr"
     purr() {
